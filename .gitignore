@@ -3,7 +3,6 @@
 .gradle/
 local.properties
 *.iml
-.DS_Store
 
 # Build files
 build/
@@ -12,10 +11,6 @@ llama/build/
 **/build/
 *.apk
 *.aab
-*.so
-*.o
-*.d
-*.a
 
 # CMake
 .cxx/
@@ -67,24 +62,8 @@ keystore.properties
 signing.properties
 
 # Model files and test data
-*.bin
-*.gguf
-*.pt
-*.ggml
 models/
 data/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-env/
-venv/
-.env/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
 
 # macOS
 .DS_Store
