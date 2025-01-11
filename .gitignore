@@ -1,0 +1,99 @@
+# Android Studio / IntelliJ IDEA
+.idea/
+.gradle/
+local.properties
+*.iml
+.DS_Store
+
+# Build files
+build/
+app/build/
+llama/build/
+**/build/
+*.apk
+*.aab
+*.so
+*.o
+*.d
+*.a
+
+# CMake
+.cxx/
+cmake-build-*/
+**/CMakeFiles/
+CMakeCache.txt
+*.ninja*
+.ninja*
+compile_commands.json
+
+# Generated files
+bin/
+gen/
+out/
+release/
+debug/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+# Android Studio captures folder
+captures/
+
+# External native build folder
+.externalNativeBuild/
+.cxx/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+llama.log
+
+# Temporary files
+*.swp
+*~
+.*.sw?
+*.tmp
+
+# Local configuration
+local.properties
+keystore.properties
+signing.properties
+
+# Model files and test data
+*.bin
+*.gguf
+*.pt
+*.ggml
+models/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/ 
