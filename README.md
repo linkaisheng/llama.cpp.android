@@ -10,7 +10,6 @@ This project is dedicated to exploring high-performance large language model cap
 
 - Run LLMs directly on Android devices
 - Native C++ implementation using Android NDK
-- Inherits llama.cpp's efficient model inference
 - Context compression for long text processing:
   - Support longer text with smaller memory footprint
   - Efficient context management for extended conversations
