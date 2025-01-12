@@ -4,13 +4,16 @@ This project is dedicated to exploring high-performance large language model cap
 
 ## Demo
 
-[![Demo Video]](https://www.youtube.com/shorts/0Jis5UVzRwk)
+[![Demo Video](https://img.youtube.com/vi/0Jis5UVzRwk/0.jpg)](https://www.youtube.com/shorts/0Jis5UVzRwk)
 
 ## Features
 
 - Run LLMs directly on Android devices
 - Native C++ implementation using Android NDK
 - Inherits llama.cpp's efficient model inference
+- Context compression for long text processing:
+  - Support longer text with smaller memory footprint
+  - Efficient context management for extended conversations
 - Simple Android UI for interaction
 
 ## Known Issues and Future Plans
@@ -18,8 +21,6 @@ This project is dedicated to exploring high-performance large language model cap
 - Model list management (including model descriptions, download links, etc.) is currently hardcoded in the source code. This will be improved in future updates with a more flexible and maintainable solution.
 - Future improvements planned:
   - Better model management system
-  - Enhanced UI/UX
-  - More configuration options
   - Performance optimizations for mobile scenarios
 
 ## Prerequisites
@@ -45,28 +46,6 @@ cd llama.cpp.android
 ```bash
 ./gradlew assembleDebug
 ```
-
-
-## Usage
-
-1. Install the app on your Android device
-2. Grant necessary storage permissions
-3. Select the model file from your device storage
-4. Start interacting with the model
-
-
-## Contributing
-
-Warmly welcome contributions from everyone! This project is an exploration platform for mobile AI capabilities:
-
-- Integrating multimodal capabilities (vision, speech, and efficient collaboration with text models)
-- Optimizing performance for mobile devices
-- Exploring new mobile-specific features and optimizations
-- Improving the model management system
-- Enhancing the user interface
-- Investigating mobile-specific AI applications
-
-Feel free to submit Pull Requests or open Issues for discussion. Let's explore the possibilities of mobile AI together!
 
 ## License
 
