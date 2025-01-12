@@ -41,11 +41,7 @@ class Llama {
         llamaAndroid.setMaxGenerateTokens(config.maxGenerateTokens)
     }
 
-    private val systemPrompt = """You are a helpful assistant. Follow these rules:
-1. Match user's language (Chinese for Chinese, English for English)
-2. Be concise and clear
-3. Admit when you don't know something
-4. Focus on accuracy and helpfulness"""
+    private val systemPrompt = """You are a helpful assistant."""
 
     suspend fun load(modelPath: String) {
         withContext(Dispatchers.IO) {
